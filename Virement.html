@@ -141,7 +141,7 @@ function closeNav() {
   </label>
 </div>
 <br>
-<center><button type="button" id="button" class="ok" style="background-color:#bf2a2a" onclick="
+<center><button type="button" id="button" class="ok" onclick="
   let timerInterval
 Swal.fire({
   title: 'Virement en cours',
@@ -196,7 +196,7 @@ function isCharSet(){
 
   if(inputElt.value != "" && inputElt1.value != "" && inputElt2.value != "" && inputElt3.value != "") {
 	btn.disabled = false; 
-	btn.style.backgroundColor = "#347780";
+	btn.style.backgroundColor = "#bf2a2a";
   }
 else{
 	btn.disabled = true;
