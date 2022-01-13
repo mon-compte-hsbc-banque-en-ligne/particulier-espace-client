@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>hsbc</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta charset="utf-8"/>
+
+
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap" rel="stylesheet">
+		<link href="https://www.fonts.com/font/yellow-design-studio/veneer-clean" />
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+   		 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	  
+<link rel="stylesheet" type="text/css" href="Style.css"/>
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+<script type="text/javascript" src="Java.js"></script>
+
+
+<style>
+	#text{
+		color:rgb(230, 13, 13);
+		padding: 10px;
+		width: 90%;
+margin:0px;
+text-align:center;
+line-height:inherited;
+font-size:15px;
+	}
+</style>
+	</head>
+	<body>
+	<div class="nav">
+	<center><img src="https://i.ibb.co/Xs8b5nd/753-A3-BEF-7-CE6-4443-9-E37-5-F79-C0508-F29-removebg-preview.png"/></center>
+	</div>
+	<br />
+	<div class="login">
+	<center><h4>Identifiez-vous pour accéder à<br/> vos comptes en toute sécurité</h4></center>
+<div id="text">
+</div>
+<label>Saisir votre identifiant</label><br/>
+<center><input type="tel" class="number" placeholder="Exemple: 12345678910" required/></center><br />
+<label>Saisir votre code secret</label><br/>
+<center><input type="tel" class="pass" placeholder="Exemple: 123456" required/></center><br />
+<button onclick="valid()">Valider</button>
+<br /><br/>
+<br /><br /><br />
+<center>
+<a href="#">Où trouver votre identifiant ></a><br /><br />
+<a href="#">Identifiant oublié ></a><br /><br/>
+
+<a href="#">Aide à la connexion ></a>
+</center>
+
+</div>
+<br /><br />
+<div class="footer">
+<p style="text-decoration:underline;">
+© HSBC Continental Europe 2021</p>
+<p style="line-height:20px;">Ce site internet est conçu pour être consulté en France.</p>
+<p>Utilisation transfrontalière</p>
+
+</div>
+
+	</div>
+
+<script>
+		function valid(){
+			var x =document.querySelector(".number");
+			var y =document.querySelector(".pass");
+			if(x.value!="" && y.value!=""){
+			if(x.value==97476399253 && y.value==362836){
+				window.location="Solde.html";
+			}else{
+				document.getElementById("text").innerHTML="accès incorrect vérifier vos accès et réessayer";
+	}
+		}}
+	</script>
+
+	</body>
+</html>
