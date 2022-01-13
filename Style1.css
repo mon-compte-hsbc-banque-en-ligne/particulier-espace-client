@@ -154,7 +154,7 @@ h1{
 }
 
 .logout{
-	background-color: #821a1a;
+	background-color: #bf2a2a;
 	color: white;
 	border:none;
 	font-size: 10px;
@@ -165,7 +165,7 @@ h1{
 
 .logout:hover{
 	background-color: #fff;
-	color: #821a1a;
+	color: #bf2a2a;
 	border:none;
 	font-size: 10px;
 	height: 40px;
