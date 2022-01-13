@@ -43,7 +43,7 @@ body {
 .sidenav .closebtn {
 	position: absolute;
 	top: 0;
-	background-color: #137180;
+	background-color: #bf2a2a;
 	width: 15%;
 	right: 0;
 	overflow: hidden;
@@ -320,7 +320,7 @@ nav li{
 	
 section{
 	display: flex;
-	background-color: #0f5a66;
+	background-color: #bf2a2a;
 	color:#fff;
 	padding: 20px;
 	margin-top: -30px;
